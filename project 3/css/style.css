@@ -1,0 +1,22 @@
+body {
+    width: 800px;
+    margin: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+
+}
+
+h1 {
+    color: brown;
+}
+
+h2 {
+    font-size: 16px;
+    color: lightslategray;
+}
+
+p {
+    color: rgb(63, 133, 92);
+    font-style: italic;
+}
