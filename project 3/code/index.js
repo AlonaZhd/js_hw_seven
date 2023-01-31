@@ -161,7 +161,7 @@ document.write("<p>15. Створіть масив arr = ['a', 'b', 'c', 'd'] і
 
 const arrayData4 = ['a', 'b', 'c', 'd'];
 document.write(arrayData4[0] + '+' + arrayData4[1] + ', ' + arrayData4[2] + '+' + arrayData4[3]);
-console.log(arrayData3.ru[0] + ' ' + arrayData3.en[0]);
+console.log(arrayData4[0] + '+' + arrayData4[1] + ', ' + arrayData4[2] + '+' + arrayData4[3]);
 
 // 16.
 document.write("<hr/>");
