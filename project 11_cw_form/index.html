@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <form>
+        <div><input data-type="name" type="text" placeholder="Введіть імя"></div>
+        <div><input data-type="surname" type="text" placeholder="Введіть прізвище"></div>
+        <div><input data-type="phone" type="tel" placeholder="+380XX XXX XX XX"></div>
+        <div><input data-type="email" type="email" placeholder="Введіть пошту"></div>
+        <div>
+            <label for="city">Оберіть місто:</label>
+            <input type="text" id="city" list="city-uk">
+            <datalist id="city-uk">
+
+            </datalist>
+        </div>
+    </form>
+    <pre class="log"></pre>
+    <script src="./code/index.js" type="module"></script>
+</body>
+
+</html>

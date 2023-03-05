@@ -1,0 +1,38 @@
+p{
+    margin: 0;
+}
+
+.error{
+    border: 3px solid red;
+}
+
+.valid {
+    border: 3px solid green;
+}
+
+input {
+    width: 50%;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+.log{
+    background-color: gray;
+    color: black;
+    height: 50vh;
+    padding: 1rem;
+    white-space: pre-line;
+}
+/*
+.focus{
+    background-color: red;
+}
+
+.blur{
+    background-color: green;
+}
+
+.change{
+    background-color: yellow;
+}
+*/
